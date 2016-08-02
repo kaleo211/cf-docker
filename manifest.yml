@@ -1,0 +1,4 @@
+---
+applications:
+- name: cf-docker
+  command: git clone https://github.com/kaleo211/cf-docker && cd cf-docker && mkdir -p app/tmp && go run main.go
